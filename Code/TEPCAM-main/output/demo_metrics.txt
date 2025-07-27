@@ -1,0 +1,7 @@
+-----------------ckpts/tepcam_test.pt--------------
+ACC,1.000
+AUC,1.000
+AUPR,1.000
+Recall,1.000
+Precision,1.000
+F1,1.000
