@@ -1,0 +1,329 @@
+[
+  {
+    "conversations": [
+      {
+        "role": "system",
+        "content": "You are a professional immunologist."
+      },
+      {
+        "role": "user",
+        "content": "Below is the result of querying a T-cell receptor (TCR) sequence in several databases.\n\n### Search Results ###\nCDR3: CASSIVGGNEQFF\n\n- VDJdb matched epitope GILGFVFTL with similarity 0.90 (MHC: HLA-A*02:01), source: Influenza A\n- Reference: PMID:28629751\n- Method: tetramer-sort, amplicon-seq\n- Frequency: 70.5%\n- Cell type: CD8+ T cell\n- Donor MHC: A02,A03,B07,B27,C01,C07\n\n### End of Search Results ###\n\nPlease analyze the data and respond with your expert interpretation in the following format:\n\nAntigen(s): <comma-separated list of antigen peptide sequences>  \nJustification: <brief explanation referring to database match, confidence, MHC type, disease relevance, etc.>\n\nInstructions:\n- Include all plausible antigen sequences.\n- Refer specifically to which databases matched and the confidence level.\n- Mention any known disease associations (virus, tumor, autoimmune).\n- You MUST respond ONLY in this EXACT format. DO NOT include any other text or greetings."
+      },
+      {
+        "role": "assistant",
+        "content": "Antigen(s): GILGFVFTL\nJustification: GILGFVFTL was matched in VDJdb with similarity 0.90 (MHC: HLA-A*02:01). Originates from Influenza A virus. Identified using tetramer-sort and amplicon-seq. Observed frequency: 70.5%. Supported by literature (PMID:28629751) and CD8+ T cell specificity."
+      }
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "role": "system",
+        "content": "You are a professional immunologist."
+      },
+      {
+        "role": "user",
+        "content": "Below is the result of querying a T-cell receptor (TCR) sequence in several databases.\n\n### Search Results ###\nCDR3: CASSMRSTGELFF\n\n- VDJdb matched epitope GILGFVFTL with similarity 0.90 (MHC: HLA-A*02:01), source: Influenza A\n- Reference: PMID:28629751\n- Method: tetramer-sort, amplicon-seq\n- Frequency: 11.0%\n- Cell type: CD8+ T cell\n- Donor MHC: A02,A03,B07,B27,C01,C07\n\n### End of Search Results ###\n\nPlease analyze the data and respond with your expert interpretation in the following format:\n\nAntigen(s): <comma-separated list of antigen peptide sequences>  \nJustification: <brief explanation referring to database match, confidence, MHC type, disease relevance, etc.>\n\nInstructions:\n- Include all plausible antigen sequences.\n- Refer specifically to which databases matched and the confidence level.\n- Mention any known disease associations (virus, tumor, autoimmune).\n- You MUST respond ONLY in this EXACT format. DO NOT include any other text or greetings."
+      },
+      {
+        "role": "assistant",
+        "content": "Antigen(s): GILGFVFTL\nJustification: GILGFVFTL was matched in VDJdb with similarity 0.90 (MHC: HLA-A*02:01). Originates from Influenza A virus. Identified using tetramer-sort and amplicon-seq. Observed frequency: 11.0%. Supported by literature (PMID:28629751) and CD8+ T cell specificity."
+      }
+    ]
+  },
+  {
+  "conversations": [
+    {
+      "role": "system",
+      "content": "You are a professional immunologist."
+    },
+    {
+      "role": "user",
+      "content": "Below is the result of querying a T-cell receptor (TCR) sequence in several databases.\n\n### Search Results ###\nCDR3: CASSSHAGGNTEAFF\n\n- VDJdb matched epitope GILGFVFTL with similarity 0.90 (MHC: HLA-A*02:01), source: Influenza A\n- Reference: PMID:28629751\n- Method: tetramer-sort, amplicon-seq\n- Frequency: 0.8%\n- Cell type: CD8+ T cell\n- Donor MHC: A02,A03,B07,B27,C01,C07\n\n### End of Search Results ###\n\nPlease analyze the data and respond with your expert interpretation in the following format:\n\nAntigen(s): <comma-separated list of antigen peptide sequences>  \nJustification: <brief explanation referring to database match, confidence, MHC type, disease relevance, etc.>\n\nInstructions:\n- Include all plausible antigen sequences.\n- Refer specifically to which databases matched and the confidence level.\n- Mention any known disease associations (virus, tumor, autoimmune).\n- You MUST respond ONLY in this EXACT format. DO NOT include any other text or greetings."
+    },
+    {
+      "role": "assistant",
+      "content": "Antigen(s): GILGFVFTL\nJustification: GILGFVFTL was matched in VDJdb with similarity 0.90 (MHC: HLA-A*02:01). Originates from Influenza A virus. Identified using tetramer-sort and amplicon-seq. Observed frequency: 0.8%. Supported by literature (PMID:28629751) and CD8+ T cell specificity."
+    }
+  ]
+},
+  {
+  "conversations": [
+    {
+      "role": "system",
+      "content": "You are a professional immunologist."
+    },
+    {
+      "role": "user",
+      "content": "Below is the result of querying a T-cell receptor (TCR) sequence in several databases.\n\n### Search Results ###\nCDR3: CASSWLSNQPQHF\n\n- VDJdb matched epitope GLCTLVAML (BMLF1) with similarity 0.92 (MHC: HLA-A*02:01), source: Epstein-Barr Virus (EBV)\n- Reference: PMID:28629751\n- Method: tetramer-sort, amplicon-seq\n- Frequency: 1.0%\n- Cell type: CD8+ T cell\n- Donor MHC: A02,A03,B07,B27,C01,C07\n\n### End of Search Results ###\n\nPlease analyze the data and respond with your expert interpretation in the following format:\n\nAntigen(s): <comma-separated list of antigen peptide sequences>  \nJustification: <brief explanation referring to database match, confidence, MHC type, disease relevance, etc.>\n\nInstructions:\n- Include all plausible antigen sequences.\n- Refer specifically to which databases matched and the confidence level.\n- Mention any known disease associations (virus, tumor, autoimmune).\n- You MUST respond ONLY in this EXACT format. DO NOT include any other text or greetings."
+    },
+    {
+      "role": "assistant",
+      "content": "Antigen(s): GLCTLVAML\nJustification: GLCTLVAML, also known as BMLF1, was identified in VDJdb with similarity 0.92 and MHC type HLA-A*02:01. This antigen originates from Epstein-Barr Virus (EBV). Detection methods included tetramer-sort and amplicon-seq, with a frequency of 1.0%. Supported by literature (PMID:28629751) and specific to CD8+ T cells."
+    }
+  ]
+},
+  {
+  "conversations": [
+    {
+      "role": "system",
+      "content": "You are a professional immunologist."
+    },
+    {
+      "role": "user",
+      "content": "Below is the result of querying a T-cell receptor (TCR) sequence in several databases.\n\n### Search Results ###\nCDR3: CASSIVGGNEQFF\n\n- VDJdb matched epitope YVLDHLIVV (BRLF1) with similarity 0.91 (MHC: HLA-A*02:01), source: Epstein-Barr Virus (EBV)\n- Reference: PMID:28629751\n- Method: tetramer-sort, amplicon-seq\n- Frequency: 59.2%\n- Cell type: CD8+ T cell\n- Donor MHC: A02,A03,B07,B27,C01,C07\n\n### End of Search Results ###\n\nPlease analyze the data and respond with your expert interpretation in the following format:\n\nAntigen(s): <comma-separated list of antigen peptide sequences>  \nJustification: <brief explanation referring to database match, confidence, MHC type, disease relevance, etc.>\n\nInstructions:\n- Include all plausible antigen sequences.\n- Refer specifically to which databases matched and the confidence level.\n- Mention any known disease associations (virus, tumor, autoimmune).\n- You MUST respond ONLY in this EXACT format. DO NOT include any other text or greetings."
+    },
+    {
+      "role": "assistant",
+      "content": "Antigen(s): YVLDHLIVV\nJustification: YVLDHLIVV, known as BRLF1, was identified in VDJdb with a similarity of approximately 0.91 and MHC class I type HLA-A*02:01. This epitope is derived from Epstein-Barr Virus (EBV). The identification methods include tetramer-sort and amplicon sequencing with a frequency of 59.2%. This finding is relevant to CD8+ T cells and supported by the literature (PMID:28629751)."
+    }
+  ]
+},
+  {
+    "conversations": [
+      {
+        "role": "system",
+        "content": "You are a professional immunologist."
+      },
+      {
+        "role": "user",
+        "content": "Below is the result of querying a T-cell receptor (TCR) sequence in several databases.\n\n### Search Results ###\nCDR3: CASSTRSSYEQYF\n\n- VDJdb matched epitope YVLDHLIVV (BRLF1) with similarity 0.90 (MHC: HLA-A*02:01), source: Epstein-Barr Virus (EBV)\n- Reference: PMID:28629751\n- Method: tetramer-sort, amplicon-seq\n- Frequency: 1.0%\n- Cell type: CD8+ T cell\n- Donor MHC: A02,A03,B07,B27,C01,C07\n\n### End of Search Results ###\n\nPlease analyze the data and respond with your expert interpretation in the following format:\n\nAntigen(s): <comma-separated list of antigen peptide sequences>  \nJustification: <brief explanation referring to database match, confidence, MHC type, disease relevance, etc.>\n\nInstructions:\n- Include all plausible antigen sequences.\n- Refer specifically to which databases matched and the confidence level.\n- Mention any known disease associations (virus, tumor, autoimmune).\n- You MUST respond ONLY in this EXACT format. DO NOT include any other text or greetings."
+      },
+      {
+        "role": "assistant",
+        "content": "Antigen(s): YVLDHLIVV\nJustification: YVLDHLIVV (BRLF1) was identified with high confidence in VDJdb, associated with Epstein-Barr Virus (EBV). The match has MHC class I allele HLA-A*02:01 and a frequency of 1.0%. Identification methods include tetramer-sort and amplicon sequencing, relevant to CD8+ T cells (PMID:28629751)."
+      }
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "role": "system",
+        "content": "You are a professional immunologist."
+      },
+      {
+        "role": "user",
+        "content": "Below is the result of querying a T-cell receptor (TCR) sequence in several databases.\n\n### Search Results ###\nCDR3: CASSMRSADTQYF\n\n- VDJdb matched epitope GILGFVFTL (M158-66) with similarity 0.88 (MHC: HLA-A*02:01), source: Influenza A virus\n- Reference: PMID:28629751\n- Method: tetramer-sort, amplicon-seq\n- Frequency: 26.9%\n- Cell type: CD8+ T cell\n- Donor MHC: A02, A11, B07, B08\n\n### End of Search Results ###\n\nPlease analyze the data and respond with your expert interpretation in the following format:\n\nAntigen(s): <comma-separated list of antigen peptide sequences>  \nJustification: <brief explanation referring to database match, confidence, MHC type, disease relevance, etc.>\n\nInstructions:\n- Include all plausible antigen sequences.\n- Refer specifically to which databases matched and the confidence level.\n- Mention any known disease associations (virus, tumor, autoimmune).\n- You MUST respond ONLY in this EXACT format. DO NOT include any other text or greetings."
+      },
+      {
+        "role": "assistant",
+        "content": "Antigen(s): GILGFVFTL\nJustification: GILGFVFTL (M158-66) epitope from Influenza A virus was matched with a similarity of about 0.88 in VDJdb, restricted by MHC class I allele HLA-A*02:01. The frequency is relatively high at 26.9%, with identification via tetramer-sort and amplicon sequencing relevant to CD8+ T cells (PMID:28629751)."
+      }
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "role": "system",
+        "content": "You are a professional immunologist."
+      },
+      {
+        "role": "user",
+        "content": "Below is the result of querying a T-cell receptor (TCR) sequence in several databases.\n\n### Search Results ###\nCDR3: CASSVRASDEQYF\n\n- VDJdb matched epitope GILGFVFTL (M158-66) with similarity 0.87 (MHC: HLA-A*02:01), source: Influenza A virus\n- Reference: PMID:28629751\n- Method: tetramer-sort, amplicon-seq\n- Frequency: 22.4%\n- Cell type: CD8+ T cell\n- Donor MHC: A02, A11, B07, B08\n\n### End of Search Results ###\n\nPlease analyze the data and respond with your expert interpretation in the following format:\n\nAntigen(s): <comma-separated list of antigen peptide sequences>  \nJustification: <brief explanation referring to database match, confidence, MHC type, disease relevance, etc.>\n\nInstructions:\n- Include all plausible antigen sequences.\n- Refer specifically to which databases matched and the confidence level.\n- Mention any known disease associations (virus, tumor, autoimmune).\n- You MUST respond ONLY in this EXACT format. DO NOT include any other text or greetings."
+      },
+      {
+        "role": "assistant",
+        "content": "Antigen(s): GILGFVFTL\nJustification: GILGFVFTL (M158-66) epitope from Influenza A virus was identified in VDJdb with a similarity of approximately 0.87, restricted by MHC class I allele HLA-A*02:01. The epitope frequency is 22.4%, identified through tetramer-sort and amplicon sequencing, relevant to CD8+ T cells (PMID:28629751)."
+      }
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "role": "system",
+        "content": "You are a professional immunologist."
+      },
+      {
+        "role": "user",
+        "content": "Below is the result of querying a T-cell receptor (TCR) sequence in several databases.\n\n### Search Results ###\nCDR3: CASSPSSVADTQYF\n\n- VDJdb matched epitope GILGFVFTL (M158-66) with similarity ~0.85 (MHC: HLA-A*02:01), source: Influenza A virus\n- Reference: PMID:28629751\n- Method: tetramer-sort, amplicon-seq\n- Frequency: 14.1%\n- Cell type: CD8+ T cell\n- Donor MHC: A02, A11, B07, B08\n\n### End of Search Results ###\n\nPlease analyze the data and respond with your expert interpretation in the following format:\n\nAntigen(s): <comma-separated list of antigen peptide sequences>  \nJustification: <brief explanation referring to database match, confidence, MHC type, disease relevance, etc.>\n\nInstructions:\n- Include all plausible antigen sequences.\n- Refer specifically to which databases matched and the confidence level.\n- Mention any known disease associations (virus, tumor, autoimmune).\n- You MUST respond ONLY in this EXACT format. DO NOT include any other text or greetings."
+      },
+      {
+        "role": "assistant",
+        "content": "Antigen(s): GILGFVFTL\nJustification: GILGFVFTL (M158-66) epitope from Influenza A virus matched with high confidence in VDJdb, restricted by HLA-A*02:01, with a frequency of 14.1%. Identification used tetramer-sort and amplicon sequencing relevant to CD8+ T cells (PMID:28629751)."
+      }
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "role": "system",
+        "content": "You are a professional immunologist."
+      },
+      {
+        "role": "user",
+        "content": "Below is the result of querying a T-cell receptor (TCR) sequence in several databases.\n\n### Search Results ###\nCDR3: CASSSRAAYEQYF\n\n- VDJdb matched epitope GILGFVFTL (M158-66) with similarity ~0.83 (MHC: HLA-A*02:01), source: Influenza A virus\n- Reference: PMID:28629751\n- Method: tetramer-sort, amplicon-seq\n- Frequency: 7.1%\n- Cell type: CD8+ T cell\n- Donor MHC: A02, A11, B07, B08\n\n### End of Search Results ###\n\nPlease analyze the data and respond with your expert interpretation in the following format:\n\nAntigen(s): <comma-separated list of antigen peptide sequences>  \nJustification: <brief explanation referring to database match, confidence, MHC type, disease relevance, etc.>\n\nInstructions:\n- Include all plausible antigen sequences.\n- Refer specifically to which databases matched and the confidence level.\n- Mention any known disease associations (virus, tumor, autoimmune).\n- You MUST respond ONLY in this EXACT format. DO NOT include any other text or greetings."
+      },
+      {
+        "role": "assistant",
+        "content": "Antigen(s): GILGFVFTL\nJustification: GILGFVFTL (M158-66) epitope from Influenza A virus was identified with good confidence in VDJdb, restricted by HLA-A*02:01, with a frequency of 7.1%. Identification used tetramer-sort and amplicon sequencing, relevant to CD8+ T cells (PMID:28629751)."
+      }
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "role": "system",
+        "content": "You are a professional immunologist."
+      },
+      {
+        "role": "user",
+        "content": "Below is the result of querying a T-cell receptor (TCR) sequence in several databases.\n\n### Search Results ###\nCDR3: CASSIRASNEQFF\n\n- VDJdb matched epitope GILGFVFTL (M158-66) with similarity ~0.80 (MHC: HLA-A*02:01), source: Influenza A virus\n- Reference: PMID:28629751\n- Method: tetramer-sort, amplicon-seq\n- Frequency: 2.8%\n- Cell type: CD8+ T cell\n- Donor MHC: A02, A11, B07, B08\n\n### End of Search Results ###\n\nPlease analyze the data and respond with your expert interpretation in the following format:\n\nAntigen(s): <comma-separated list of antigen peptide sequences>  \nJustification: <brief explanation referring to database match, confidence, MHC type, disease relevance, etc.>\n\nInstructions:\n- Include all plausible antigen sequences.\n- Refer specifically to which databases matched and the confidence level.\n- Mention any known disease associations (virus, tumor, autoimmune).\n- You MUST respond ONLY in this EXACT format. DO NOT include any other text or greetings."
+      },
+      {
+        "role": "assistant",
+        "content": "Antigen(s): GILGFVFTL\nJustification: GILGFVFTL (M158-66) epitope from Influenza A virus matched in VDJdb with good confidence, restricted by HLA-A*02:01, with a frequency of 2.8%. Identification was done via tetramer-sort and amplicon sequencing, relevant to CD8+ T cells (PMID:28629751)."
+      }
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "role": "system",
+        "content": "You are a professional immunologist."
+      },
+      {
+        "role": "user",
+        "content": "Below is the result of querying a T-cell receptor (TCR) sequence in several databases.\n\n### Search Results ###\nCDR3: CASSGRSADTQYF\n\n- VDJdb matched epitope GILGFVFTL (M158-66) with similarity ~0.82 (MHC: HLA-A*02:01), source: Influenza A virus\n- Reference: PMID:28629751\n- Method: tetramer-sort, amplicon-seq\n- Frequency: 1.9%\n- Cell type: CD8+ T cell\n- Donor MHC: A02, A11, B07, B08\n\n### End of Search Results ###\n\nPlease analyze the data and respond with your expert interpretation in the following format:\n\nAntigen(s): <comma-separated list of antigen peptide sequences>  \nJustification: <brief explanation referring to database match, confidence, MHC type, disease relevance, etc.>\n\nInstructions:\n- Include all plausible antigen sequences.\n- Refer specifically to which databases matched and the confidence level.\n- Mention any known disease associations (virus, tumor, autoimmune).\n- You MUST respond ONLY in this EXACT format. DO NOT include any other text or greetings."
+      },
+      {
+        "role": "assistant",
+        "content": "Antigen(s): GILGFVFTL\nJustification: GILGFVFTL (M158-66) epitope from Influenza A virus matched with good confidence in VDJdb, restricted by HLA-A*02:01, frequency 1.9%. Identification via tetramer-sort and amplicon-seq, relevant to CD8+ T cells (PMID:28629751)."
+      }
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "role": "system",
+        "content": "You are a professional immunologist."
+      },
+      {
+        "role": "user",
+        "content": "Below is the result of querying a T-cell receptor (TCR) sequence in several databases.\n\n### Search Results ###\nCDR3: CASSTRATGELFF\n\n- VDJdb matched epitope GILGFVFTL (M158-66) with similarity ~0.81 (MHC: HLA-A*02:01), source: Influenza A virus\n- Reference: PMID:28629751\n- Method: tetramer-sort, amplicon-seq\n- Frequency: 1.7%\n- Cell type: CD8+ T cell\n- Donor MHC: A02, A11, B07, B08\n\n### End of Search Results ###\n\nPlease analyze the data and respond with your expert interpretation in the following format:\n\nAntigen(s): <comma-separated list of antigen peptide sequences>  \nJustification: <brief explanation referring to database match, confidence, MHC type, disease relevance, etc.>\n\nInstructions:\n- Include all plausible antigen sequences.\n- Refer specifically to which databases matched and the confidence level.\n- Mention any known disease associations (virus, tumor, autoimmune).\n- You MUST respond ONLY in this EXACT format. DO NOT include any other text or greetings."
+      },
+      {
+        "role": "assistant",
+        "content": "Antigen(s): GILGFVFTL\nJustification: GILGFVFTL (M158-66) epitope from Influenza A virus matched with moderate confidence in VDJdb, restricted by HLA-A*02:01, frequency 1.7%. Identified by tetramer-sort and amplicon-seq relevant to CD8+ T cells (PMID:28629751)."
+      }
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "role": "system",
+        "content": "You are a professional immunologist."
+      },
+      {
+        "role": "user",
+        "content": "Below is the result of querying a T-cell receptor (TCR) sequence in several databases.\n\n### Search Results ###\nCDR3: CASSIRGSETQYF\n\n- VDJdb matched epitope GILGFVFTL (M158-66) with similarity ~0.80 (MHC: HLA-A*02:01), source: Influenza A virus\n- Reference: PMID:28629751\n- Method: tetramer-sort, amplicon-seq\n- Frequency: 1.5%\n- Cell type: CD8+ T cell\n- Donor MHC: A02, A11, B07, B08\n\n### End of Search Results ###\n\nPlease analyze the data and respond with your expert interpretation in the following format:\n\nAntigen(s): <comma-separated list of antigen peptide sequences>  \nJustification: <brief explanation referring to database match, confidence, MHC type, disease relevance, etc.>\n\nInstructions:\n- Include all plausible antigen sequences.\n- Refer specifically to which databases matched and the confidence level.\n- Mention any known disease associations (virus, tumor, autoimmune).\n- You MUST respond ONLY in this EXACT format. DO NOT include any other text or greetings."
+      },
+      {
+        "role": "assistant",
+        "content": "Antigen(s): GILGFVFTL\nJustification: GILGFVFTL (M158-66) epitope from Influenza A virus matched with good confidence in VDJdb, restricted by HLA-A*02:01, frequency 1.5%. Identification by tetramer-sort and amplicon sequencing, relevant to CD8+ T cells (PMID:28629751)."
+      }
+    ]
+  },
+    {
+    "conversations": [
+      {
+        "role": "system",
+        "content": "You are a professional immunologist."
+      },
+      {
+        "role": "user",
+        "content": "Below is the result of querying a T-cell receptor (TCR) sequence in several databases.\n\n### Search Results ###\nCDR3: CSAETGVGQPQHF\n\n- VDJdb and other database info: matched epitope KLGGALQAK (IE1) from CMV\n- MHC: HLA-A*03:01\n- Reference: 10x Genomics Application Note\n- Method: dextramer-sort, RNA-seq\n- Frequency: 3/33921 cells\n- Single cell data available\n\n### End of Search Results ###\n\nPlease analyze the data and respond with your expert interpretation in the following format:\n\nAntigen(s): <comma-separated list of antigen peptide sequences>  \nJustification: <brief explanation referring to database match, confidence, MHC type, disease relevance, etc.>\n\nInstructions:\n- Include all plausible antigen sequences.\n- Refer specifically to which databases matched and the confidence level.\n- Mention any known disease associations (virus, tumor, autoimmune).\n- You MUST respond ONLY in this EXACT format. DO NOT include any other text or greetings."
+      },
+      {
+        "role": "assistant",
+        "content": "Antigen(s): KLGGALQAK\nJustification: KLGGALQAK epitope from CMV matched with evidence from dextramer-sort and RNA-seq, restricted by HLA-A*03:01. Single-cell verified with frequency 3/33921 cells, source 10x Genomics dataset indicating CMV-specific CD8+ T cell response."
+      }
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "role": "system",
+        "content": "You are a professional immunologist."
+      },
+      {
+        "role": "user",
+        "content": "Below is the result of querying a T-cell receptor (TCR) sequence in several databases.\n\n### Search Results ###\nCDR3: CAFMKARSQGAQKLVF\n\n- Matched epitope AVFDRKSDAK from EBV (EBNA3B)\n- MHC: HLA-A*11:01\n- Reference: 10x Genomics Application Note\n- Method: dextramer-sort, RNA-seq\n- Frequency: 1/33921 cells\n- Single cell data available\n\n### End of Search Results ###\n\nPlease analyze the data and respond with your expert interpretation in the following format:\n\nAntigen(s): <comma-separated list of antigen peptide sequences>  \nJustification: <brief explanation referring to database match, confidence, MHC type, disease relevance, etc.>\n\nInstructions:\n- Include all plausible antigen sequences.\n- Refer specifically to which databases matched and the confidence level.\n- Mention any known disease associations (virus, tumor, autoimmune).\n- You MUST respond ONLY in this EXACT format. DO NOT include any other text or greetings."
+      },
+      {
+        "role": "assistant",
+        "content": "Antigen(s): AVFDRKSDAK\nJustification: AVFDRKSDAK epitope from EBV (EBNA3B) matched with single-cell RNA-seq and dextramer-sort methods, restricted by HLA-A*11:01, with low frequency (1/33921 cells), indicating EBV-specific CD8+ T cell reactivity as per 10x Genomics data."
+      }
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "role": "system",
+        "content": "You are a professional immunologist."
+      },
+      {
+        "role": "user",
+        "content": "Below is the result of querying a T-cell receptor (TCR) sequence in several databases.\n\n### Search Results ###\nCDR3: CASSLDNSGPAYEQYF\n\n- Matched epitope AVFDRKSDAK from EBV (EBNA3B)\n- MHC: HLA-A*11:01\n- Reference: 10x Genomics Application Note\n- Method: dextramer-sort, RNA-seq\n- Frequency: 1/33921 cells\n- Single cell data available\n\n### End of Search Results ###\n\nPlease analyze the data and respond with your expert interpretation in the following format:\n\nAntigen(s): <comma-separated list of antigen peptide sequences>  \nJustification: <brief explanation referring to database match, confidence, MHC type, disease relevance, etc.>\n\nInstructions:\n- Include all plausible antigen sequences.\n- Refer specifically to which databases matched and the confidence level.\n- Mention any known disease associations (virus, tumor, autoimmune).\n- You MUST respond ONLY in this EXACT format. DO NOT include any other text or greetings."
+      },
+      {
+        "role": "assistant",
+        "content": "Antigen(s): AVFDRKSDAK\nJustification: AVFDRKSDAK epitope from EBV (EBNA3B) matched via dextramer-sort and RNA-seq with single-cell evidence, restricted by HLA-A*11:01, frequency 1/33921 cells, indicative of EBV-specific immune response (source: 10x Genomics)."
+      }
+    ]
+  },
+   {
+    "conversations": [
+      {
+        "role": "system",
+        "content": "You are a professional immunologist."
+      },
+      {
+        "role": "user",
+        "content": "Below is the result of querying a T-cell receptor (TCR) sequence in several databases.\n\n### Search Results ###\nCDR3: CAGTNSGNTPLVF\n\n- Matched epitope: KLGGALQAK (IE1) from CMV\n- MHC: HLA-A*03:01\n- Reference: 10x Genomics Application Note\n- Method: dextramer-sort, RNA-seq\n- Frequency: 1/25584 cells\n- Single cell data available\n\n### End of Search Results ###\n\nPlease analyze the data and respond with your expert interpretation in the following format:\n\nAntigen(s): <comma-separated list of antigen peptide sequences>  \nJustification: <brief explanation referring to database match, confidence, MHC type, disease relevance, etc.>\n\nInstructions:\n- Include all plausible antigen sequences.\n- Refer specifically to which databases matched and the confidence level.\n- Mention any known disease associations (virus, tumor, autoimmune).\n- You MUST respond ONLY in this EXACT format. DO NOT include any other text or greetings."
+      },
+      {
+        "role": "assistant",
+        "content": "Antigen(s): KLGGALQAK\nJustification: The TCR sequence matches the epitope KLGGALQAK from CMV (IE1) with data from dextramer-sort and RNA-seq indicating single-cell evidence. Restricted by HLA-A*03:01, with frequency 1/25584 cells, as documented by 10x Genomics."
+      }
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "role": "system",
+        "content": "You are a professional immunologist."
+      },
+      {
+        "role": "user",
+        "content": "Below is the result of querying a T-cell receptor (TCR) sequence in several databases.\n\n### Search Results ###\nCDR3: CASQQGAVTEAFF\n\n- Matched epitope: KLGGALQAK (IE1) from CMV\n- MHC: HLA-A*03:01\n- Reference: 10x Genomics Application Note\n- Method: dextramer-sort, RNA-seq\n- Frequency: 1/25584 cells\n- Single cell data available\n\n### End of Search Results ###\n\nPlease analyze the data and respond with your expert interpretation in the following format:\n\nAntigen(s): <comma-separated list of antigen peptide sequences>  \nJustification: <brief explanation referring to database match, confidence, MHC type, disease relevance, etc.>\n\nInstructions:\n- Include all plausible antigen sequences.\n- Refer specifically to which databases matched and the confidence level.\n- Mention any known disease associations (virus, tumor, autoimmune).\n- You MUST respond ONLY in this EXACT format. DO NOT include any other text or greetings."
+      },
+      {
+        "role": "assistant",
+        "content": "Antigen(s): KLGGALQAK\nJustification: The TCR sequence is associated with the CMV epitope KLGGALQAK (IE1) supported by dextramer-sort and RNA-seq single-cell data. It is restricted by HLA-A*03:01, with low frequency (1/25584), according to 10x Genomics."
+      }
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "role": "system",
+        "content": "You are a professional immunologist."
+      },
+      {
+        "role": "user",
+        "content": "Below is the result of querying a T-cell receptor (TCR) sequence in several databases.\n\n### Search Results ###\nCDR3: CGTERSNFGNEKLTF\n\n- Matched epitope: KLGGALQAK (IE1) from CMV\n- MHC: HLA-A*03:01\n- Reference: 10x Genomics Application Note\n- Method: dextramer-sort, RNA-seq\n- Frequency: 1/25584 cells\n- Single cell data available\n\n### End of Search Results ###\n\nPlease analyze the data and respond with your expert interpretation in the following format:\n\nAntigen(s): <comma-separated list of antigen peptide sequences>  \nJustification: <brief explanation referring to database match, confidence, MHC type, disease relevance, etc.>\n\nInstructions:\n- Include all plausible antigen sequences.\n- Refer specifically to which databases matched and the confidence level.\n- Mention any known disease associations (virus, tumor, autoimmune).\n- You MUST respond ONLY in this EXACT format. DO NOT include any other text or greetings."
+      },
+      {
+        "role": "assistant",
+        "content": "Antigen(s): KLGGALQAK\nJustification: This TCR sequence matches the CMV epitope KLGGALQAK (IE1) with evidence from dextramer-sort and RNA-seq single-cell data, restricted by HLA-A*03:01, frequency 1/25584 cells, as per 10x Genomics."
+      }
+    ]
+  }
+
+
+
+]
+
+
+
+
