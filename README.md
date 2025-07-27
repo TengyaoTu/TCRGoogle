@@ -2,7 +2,7 @@
 Implementation of TEPCAM, a binary classification model for TCR-beta-CDR3 and epitope.     
 This repository contains processed data, code and checkpoint.
 
-![image](pics/model.png)
+![image](picture/TCR_Google_Framework.png)
 
 ## Requirements
 TEPCAM is constructed using python 3.8.16. The detail dependencies are recorded in `requirements.txt`.    
