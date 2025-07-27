@@ -45,6 +45,9 @@ The TCR sequence matches the epitope **KLGGALQAK** from **CMV (IE1)** with evide
 **Justification**:  
 The TCR sequence matches the epitope **FLWSVFWLI** from **IGRP** (Homo sapiens) with evidence from *tetramer-sort* and *amplicon-seq* data indicating single-cell verification. The TCR was identified in **naive T cells** from a subject with type 1 diabetes (T1D), sampled from peripheral blood mononuclear cells (PBMC). This information is documented in [PMID:34811538](https://pubmed.ncbi.nlm.nih.gov/34811538/).
 
+## Cite Us
+coming soon
+
 
 
 
