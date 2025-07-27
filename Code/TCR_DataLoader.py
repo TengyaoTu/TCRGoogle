@@ -292,7 +292,7 @@ if search_result.strip() == "{None, No matched}":
             print(f"[Attempt {attempt+1}] Criteria not met. Trying next...")
 
     if not found:
-        expert_response = generate_protein_sequence(sequence)
+        expert_response = generate_protein_sequence(sequence, "ProtGPT2_Lora")##在这里改成ProtGPT2-Lora
         print("ProtGPT2 Generate: " + expert_response)
 
     return expert_response
