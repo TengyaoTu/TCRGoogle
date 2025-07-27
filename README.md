@@ -14,7 +14,10 @@ To install from the [requirements.txt](requirements.txt), using:
 ```bash
 pip install -r requirements.txt
 ```   
-
+Note: The PyTorch GPU version should be installed separately and is not recommended to be included in requirements.txt, because GPU support depends on the specific CUDA version, which varies across user machines. Using a fixed version may cause compatibility issues.
+```bash
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
+```  
 Using a conda virtual environment is highly recommended.
 
 ``` console
