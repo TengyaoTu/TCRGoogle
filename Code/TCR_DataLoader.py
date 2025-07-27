@@ -3,7 +3,8 @@ from modelscope import snapshot_download
 from transformers import AutoModelForCausalLM, AutoTokenizer
 import torch
 import gc
-
+from find_tcr import find_most_similar_tcr
+from run_tepcam_demo import run_tepcam
 from ProtGPT_Generating import generate_protein_sequence
 from mlx_lm import load, generate
 def load_tcr_datasets():
@@ -268,11 +269,33 @@ def run_tcr_query(sequence, model_dir):
     print(f"\nSearching for sequence: {sequence}")
     search_result, true_antigens  = search(sequence, data)
 
-    if search_result.strip() == "{None, No matched}":
-        expert_response=generate_protein_sequence(sequence)
-        print("ProtGPT2 Generate:"+expert_response)
+if search_result.strip() == "{None, No matched}":
+    max_attempts = 5
+    found = False
 
-        return expert_response
+    for attempt in range(max_attempts):
+        similar_result = find_most_similar_tcr(sequence)
+        candidate_tcr = similar_result["matched_tcr"]
+        similarity = similar_result.get("cosine_similarity", 0)
+
+        # 调用 TEpCAM 打分函数
+        tepcam_score = run_tepcam(candidate_tcr, sequence)
+
+        print(f"[Attempt {attempt+1}] TCR: {candidate_tcr}, similarity={similarity:.4f}, tepcam_score={tepcam_score:.4f}")
+
+        if similarity > 0.85 and tepcam_score > 0.5:
+            print(f"[Attempt {attempt+1}] Criteria met. Using similar TCR.")
+            expert_response = candidate_tcr
+            found = True
+            break
+        else:
+            print(f"[Attempt {attempt+1}] Criteria not met. Trying next...")
+
+    if not found:
+        expert_response = generate_protein_sequence(sequence)
+        print("ProtGPT2 Generate: " + expert_response)
+
+    return expert_response
 
     print("\nGenerating expert interpretation...")
     expert_response = generate_expert_response(search_result, tokenizer, model)
