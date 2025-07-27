@@ -1,0 +1,20 @@
+# 基础科学计算与数据处理
+ipykernel
+numpy
+scipy
+pandas
+matplotlib
+tqdm
+
+# PyTorch（此处建议单独安装 GPU 版，见注释）
+# torch
+# torchvision
+# torchaudio
+
+# 大模型生态库
+transformers
+datasets
+accelerate
+peft
+einops
+transformers_stream_generator
