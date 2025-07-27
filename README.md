@@ -34,13 +34,15 @@ python TCRGoogle_Run.py \
 ![image](picture/TCRGoogle.png)
 
 ## Case Study 1
-**Input TCR**：`CLLATGGGSNYKLTF`\
+**Input**：`CLLATGGGSNYKLTF`\
 **Antigen(s)**: `KLGGALQAK`\
+**Output**:
 **Justification**: 
 The TCR sequence matches the epitope **KLGGALQAK** from **CMV (IE1)** with evidence from *dextramer-sort* and *RNA-seq* data indicating single-cell verification. This TCR is restricted by **HLA-A*03:01**, with a frequency of **1/25584 cells**, as documented by **10x Genomics**.
 
 ## Case Study 2
-**Input TCR**: `CVVVYGGYQKVTF`  
+**Input**: `CVVVYGGYQKVTF`
+**Output**:
 **Antigen(s)**: `FLWSVFWLI`  
 **Justification**:  
 The TCR sequence matches the epitope **FLWSVFWLI** from **IGRP** (Homo sapiens) with evidence from *tetramer-sort* and *amplicon-seq* data indicating single-cell verification. The TCR was identified in **naive T cells** from a subject with type 1 diabetes (T1D), sampled from peripheral blood mononuclear cells (PBMC). This information is documented in [PMID:34811538](https://pubmed.ncbi.nlm.nih.gov/34811538/).
