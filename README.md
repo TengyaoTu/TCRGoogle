@@ -1,7 +1,9 @@
 # [TCRGoogle: An Explainable Generative Framework for T-Cell Receptor Specificity Prediction](https://github.com/TengyaoTu/TCRGoogle)
-Implementation of TEPCAM, a binary classification model for TCR-beta-CDR3 and epitope.     
-This repository contains processed data, code and checkpoint.
 
+
+The number of cancer cases continues to rise globally, highlighting an urgent need for effective and innovative treatments. Among these, cell-based immunotherapies—such as T-cell receptor (TCR) engineering—have emerged as a promising and timely solution to combat cancer with greater precision and personalization.
+![image](picture/cancer_rate.png)
+We propose a three-stage framework, TCRGoogle, designed for T-cell receptor (TCR) specificity prediction. This framework integrates efficient retrieval, rigorous similarity evaluation, and adaptive sequence generation to provide accurate, interpretable, and scalable predictions of TCR-epitope interactions. By combining knowledge-based searching with generative modeling, TCRGoogle enables both fast matching and hypothesis generation for novel TCR sequences, addressing key challenges in personalized immunotherapy development.
 ![image](picture/TCR_Google_Framework.png)
 
 ## Requirements
@@ -19,7 +21,7 @@ Using a conda virtual environment is highly recommended.
 conda create -f env.yaml
 ```
 
-## Model Training
+## TCRGoogle Using
 ```bash
 python TCRGoogle_Run.py \
 --cdr3 "CASSIVGGNEQFF" \
