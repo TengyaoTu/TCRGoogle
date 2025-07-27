@@ -23,6 +23,8 @@ Using a conda virtual environment is highly recommended.
 ``` console
 conda create -n tcr-env python=3.10
 ```
+## Case Study
+![image](picture/TCRGoogle.png)
 
 ## TCRGoogle Using
 ```bash
