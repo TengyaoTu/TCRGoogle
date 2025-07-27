@@ -7,7 +7,7 @@ We propose a three-stage framework, TCRGoogle, designed for T-cell receptor (TCR
 ![image](picture/TCR_Google_Framework.png)
 
 ## Requirements
-TEPCAM is constructed using python 3.8.16. The detail dependencies are recorded in `requirements.txt`.    
+TCRGoogle is constructed using python 3.10. The detail dependencies are recorded in `requirements.txt`.    
 
 To install from the [requirements.txt](requirements.txt), using:     
 
