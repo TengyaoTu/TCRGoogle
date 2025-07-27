@@ -32,9 +32,9 @@ python TCRGoogle_Run.py \
 
 ## Case Study
 ![image](picture/TCRGoogle.png)
-**Input TCR序列**：`CLLATGGGSNYKLTF`
-**Antigen(s)**: `KLGGALQAK`
-**Justification**:  
+**Input TCR**：`CLLATGGGSNYKLTF`\
+**Antigen(s)**: `KLGGALQAK`\
+**Justification**:\  
 The TCR sequence matches the epitope **KLGGALQAK** from **CMV (IE1)** with evidence from *dextramer-sort* and *RNA-seq* data indicating single-cell verification.  
 This TCR is restricted by **HLA-A*03:01**, with a frequency of **1/25584 cells**, as documented by **10x Genomics**.
 
