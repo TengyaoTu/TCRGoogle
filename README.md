@@ -1,4 +1,4 @@
-# [TCRGoogle: An Explainable Generative Framework for T-Cell Receptor Specificity Prediction]
+# TCRGoogle: An Explainable Generative Framework for T-Cell Receptor Specificity Prediction
 
 python TCRGoogle_Run.py 
 --cdr3 "CASSIVGGNEQFF" 
