@@ -21,7 +21,7 @@ pip install torch torchvision torchaudio --index-url https://download.pytorch.or
 Using a conda virtual environment is highly recommended.
 
 ``` console
-conda create -f env.yaml
+conda create -n tcr-env python=3.10
 ```
 
 ## TCRGoogle Using
