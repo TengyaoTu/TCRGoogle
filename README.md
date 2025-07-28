@@ -1,4 +1,6 @@
 # [TCRGoogle: An Explainable Generative Framework for T-Cell Receptor Specificity Prediction](https://github.com/TengyaoTu/TCRGoogle)
+![Python](https://img.shields.io/badge/Python-3.10%2B-blue)
+![License](https://img.shields.io/badge/License-MIT-green)
 
 
 The number of cancer cases continues to rise globally, highlighting an urgent need for effective and innovative treatments. Among these, cell-based immunotherapies—such as T-cell receptor (TCR) engineering—have emerged as a promising and timely solution to combat cancer with greater precision and personalization.
