@@ -35,16 +35,16 @@ python TCRGoogle_Run.py \
 --model "QuantFactory/Bio-Medical-Llama-3-8B-GGUF"
 ```
 
-##📋 Our Method's Detailed Pipeline
+## 📋 Our Method's Detailed Pipeline
 ![image](picture/Figure_1.png)
 
-##✅ Case Study I
+## ✅ Case Study I
 **Input TCR**：`CLLATGGGSNYKLTF`\
 **Antigen(s)**: `KLGGALQAK`\
 **Justification**: 
 The TCR sequence matches the epitope **KLGGALQAK** from **CMV (IE1)** with evidence from *dextramer-sort* and *RNA-seq* data indicating single-cell verification. This TCR is restricted by **HLA-A*03:01**, with a frequency of **1/25584 cells**, as documented by **10x Genomics**.
 
-##✅ Case Study II
+## ✅ Case Study II
 **Input TCR**: `CVVVYGGYQKVTF`\
 **Antigen(s)**: `FLWSVFWLI`  
 **Justification**:  
