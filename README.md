@@ -11,7 +11,8 @@ The number of cancer cases continues to rise globally, highlighting an urgent ne
 We propose a three-stage framework, TCRGoogle, designed for T-cell receptor (TCR) specificity prediction. This framework integrates efficient retrieval, rigorous similarity evaluation, and adaptive sequence generation to provide accurate, interpretable, and scalable predictions of TCR-epitope interactions. By combining knowledge-based searching with generative modeling, TCRGoogle enables both fast matching and hypothesis generation for novel TCR sequences, addressing key challenges in personalized immunotherapy development.
 ![image](picture/TCR_Google_Framework.png)
 
-## Requirements
+## Requirements ![requirements](https://img.shields.io/badge/Requirements-✓-brightgreen)
+
 TCRGoogle is constructed using python 3.10. The detail dependencies are recorded in `requirements.txt`.    
 
 To install from the [requirements.txt](requirements.txt), using:     
