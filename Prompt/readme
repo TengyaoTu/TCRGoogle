@@ -1,1 +1,11 @@
+# 🧠 Prompt Showcase for TCRGoogle
+
+This repository contains a collection of prompts used in the development and evaluation of **TCRGoogle**, an explainable framework for T-cell receptor (TCR)–antigen specificity prediction.
+
+Each prompt is designed to guide large language models (LLMs) in specific sub-tasks, including:
+
+- Antigen retrieval from domain-specific documents (Strategy I)
+- Interpretability scoring and reasoning evaluation
+
+Prompts are provided with input/output examples and can be adapted for related biomedical generative tasks.
 
